@@ -454,6 +454,10 @@ figcaption {
 }
 
 @media screen and (max-width:425px) {
+    .search, .administration {
+        display: none;
+    }
+
     .jumbotron {
         height: auto;
         margin-top: 155px;
@@ -470,11 +474,20 @@ figcaption {
     .des {
         width: 80%;
     }
+
+    .brand-list img {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:375px) {
-    .administration {
-        margin-top: 20px;
+
+    .jumbotron {
+        margin-top: 95px;
+    }
+
+    .jumbotron-image img {
+        width: 300px;
     }
 }
 
