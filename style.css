@@ -377,6 +377,50 @@ td {
 
 /* END PRODUK */
 
+/* BLOG */
+.blog {
+    padding-top: 30px;
+}
+
+.blog-images {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029 ;
+}
+
+.blog-box img {
+    width: 250px;
+}
+
+.blog-box h2 {
+    margin: 20px auto;
+}
+
+figcaption {
+    margin-top: 20px;
+    opacity: .5;
+    text-align: right;
+}
+
+.blog-box a {
+    margin-top: 30px;
+}
+/* END BLOG */
+
+
 /* RESPONSIVE */
 
 @media screen and (max-width:768px){
