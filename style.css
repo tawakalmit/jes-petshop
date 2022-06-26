@@ -334,6 +334,49 @@ td {
 
 /* END ADOPTION */
 
+/* PRODUK */
+
+.produk {
+    background: url(img/bg.png);
+    height: auto;
+}
+
+.produk-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produk-box {
+    background-color: white;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 6px #00000029 ;
+    margin-bottom: 20px;
+}
+
+.produk-box button {
+    background-color: #85b839;
+    margin-top: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0px;
+    color: white;
+}
+
+.produk .headliner {
+    padding-top: 20px;
+}
+
+.produk h1 {
+    color: white;
+}
+
+/* END PRODUK */
+
 /* RESPONSIVE */
 
 @media screen and (max-width:768px){
