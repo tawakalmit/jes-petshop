@@ -514,6 +514,18 @@ footer {
 }
 /* END FOOTER */
 
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all .7s ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
 /* RESPONSIVE */
 
 @media screen and (max-width:768px){
